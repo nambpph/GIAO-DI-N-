@@ -1,0 +1,144 @@
+.cus-login-child,
+.cus-login-inner,
+.cus-login-item {
+  position: absolute;
+  top: 1160.1px;
+  left: 0;
+  width: 1500px;
+  height: 339.9px;
+}
+.cus-login-inner,
+.cus-login-item {
+  top: 0;
+  height: 748.1px;
+}
+.cus-login-inner {
+  height: 564.3px;
+}
+.form-login-child1 {
+  position: absolute;
+  top: 908px;
+  left: 721px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 410px;
+  height: 146px;
+  cursor: pointer;
+}
+.login,
+.login1 {
+  position: absolute;
+}
+.login {
+  top: 927px;
+  left: 679px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 469.4px;
+  height: 101.3px;
+}
+.login1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-125xl);
+  display: inline-block;
+  color: var(--color-white);
+  width: 1117.3px;
+  height: 169.7px;
+}
+.new-here-register-container {
+  top: 977.9px;
+  left: 13.2px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-dimgray);
+  width: 532.2px;
+  height: 86.1px;
+}
+.email1,
+.forgot-password,
+.new-here-register-container,
+.password1 {
+  position: absolute;
+  display: inline-block;
+}
+.forgot-password {
+  top: 731px;
+  left: 706px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-dimgray);
+  width: 532.2px;
+  height: 86.1px;
+}
+.email1,
+.password1 {
+  left: 13px;
+  width: 1117.3px;
+  height: 50.7px;
+}
+.email1 {
+  top: 233px;
+  color: #ff5c5c;
+}
+.password1 {
+  top: 466px;
+}
+.form-login-child2,
+.form-login-child3 {
+  position: absolute;
+  top: 329.5px;
+  left: 13.5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-dodgerblue-200);
+  border: 1px solid var(--color-dodgerblue-100);
+  box-sizing: border-box;
+  width: 1022px;
+  height: 137px;
+}
+.form-login-child3 {
+  top: 562.5px;
+}
+.form-login1 {
+  position: absolute;
+  top: 369px;
+  left: 101px;
+  width: 1238.2px;
+  height: 1064px;
+}
+.outlinebrandsfacebook-icon1,
+.outlinebrandsgoogle-alt-icon1 {
+  position: absolute;
+  top: 1204px;
+  left: 115px;
+  width: 90px;
+  height: 90px;
+}
+.outlinebrandsgoogle-alt-icon1 {
+  left: 205px;
+}
+.outlineinterfacecross-icon1 {
+  position: absolute;
+  top: 0;
+  left: 1366px;
+  width: 134px;
+  height: 142px;
+}
+.cus-login {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1500px;
+  height: 1500px;
+  overflow: hidden;
+  cursor: pointer;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-tomato-100);
+  font-family: var(--font-nunito);
+}

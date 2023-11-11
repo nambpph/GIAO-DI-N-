@@ -1,0 +1,140 @@
+.register-child,
+.register-inner,
+.register-item {
+  position: absolute;
+  top: 1166.5px;
+  left: 0;
+  width: 1500px;
+  height: 333.5px;
+}
+.register-inner,
+.register-item {
+  top: 0;
+  height: 716.1px;
+}
+.register-inner {
+  height: 564.3px;
+}
+.form-login-child {
+  position: absolute;
+  top: 1006px;
+  left: 708px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 410px;
+  height: 146px;
+  cursor: pointer;
+}
+.register1 {
+  position: absolute;
+  top: 1025px;
+  left: 666px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 469.4px;
+  height: 101.3px;
+}
+.already-member-login-container,
+.register2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-125xl);
+  display: inline-block;
+  color: var(--color-white);
+  width: 1117.3px;
+  height: 169.7px;
+}
+.already-member-login-container {
+  top: 1075.9px;
+  left: 0.2px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-dimgray);
+  width: 532.2px;
+  height: 86.1px;
+}
+.fullname,
+.password {
+  position: absolute;
+  top: 294px;
+  left: 0;
+  display: inline-block;
+  width: 1117.3px;
+  height: 50.7px;
+}
+.password {
+  top: 727px;
+}
+.form-login-inner,
+.form-login-item,
+.rectangle-div {
+  position: absolute;
+  top: 362.5px;
+  left: -0.5px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-dodgerblue-200);
+  border: 1px solid var(--color-dodgerblue-100);
+  box-sizing: border-box;
+  width: 1022px;
+  height: 137px;
+}
+.form-login-inner,
+.rectangle-div {
+  top: 789.5px;
+  left: 0.5px;
+}
+.rectangle-div {
+  top: 582.5px;
+}
+.email,
+.form-login {
+  position: absolute;
+  top: 271px;
+  left: 114px;
+  width: 1135.4px;
+  height: 1162px;
+}
+.email {
+  top: 785px;
+  display: inline-block;
+  width: 1117.3px;
+  height: 50.7px;
+}
+.outlinebrandsfacebook-icon,
+.outlinebrandsgoogle-alt-icon {
+  position: absolute;
+  top: 1246px;
+  left: 115px;
+  width: 90px;
+  height: 90px;
+}
+.outlinebrandsgoogle-alt-icon {
+  top: 1247px;
+  left: 205px;
+}
+.outlineinterfacecross-icon {
+  position: absolute;
+  top: 0;
+  left: 1339px;
+  width: 134px;
+  height: 142px;
+}
+.register {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1500px;
+  height: 1500px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-tomato-100);
+  font-family: var(--font-nunito);
+}
