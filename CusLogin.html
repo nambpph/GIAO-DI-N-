@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./CusLogin.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="cus-login" id="popupcusLoginContainer">
+      <img class="cus-login-child" alt="" src="./public/rectangle-31.svg" />
+
+      <img class="cus-login-item" alt="" src="./public/rectangle-2.svg" />
+
+      <img class="cus-login-inner" alt="" src="./public/rectangle-1.svg" />
+
+      <div class="form-login1">
+        <div class="form-login-child1" id="popuprectangle3"></div>
+        <div class="login">Login</div>
+        <b class="login1">Login</b>
+        <div class="new-here-register-container">
+          <span>New Here?</span>
+          <b> Register</b>
+        </div>
+        <b class="forgot-password">Forgot Password?</b>
+        <div class="email1">Email</div>
+        <div class="password1">Password</div>
+        <div class="form-login-child2"></div>
+        <div class="form-login-child3"></div>
+      </div>
+      <img
+        class="outlinebrandsfacebook-icon1"
+        alt=""
+        src="./public/outlinebrandsfacebook.svg"
+      />
+
+      <img
+        class="outlinebrandsgoogle-alt-icon1"
+        alt=""
+        src="./public/outlinebrandsgooglealt.svg"
+      />
+
+      <img
+        class="outlineinterfacecross-icon1"
+        alt=""
+        src="./public/outlineinterfacecross.svg"
+      />
+    </div>
+
+    <script>
+      var popuprectangle3 = document.getElementById("popuprectangle3");
+      if (popuprectangle3) {
+        popuprectangle3.addEventListener("click", function (e) {
+          window.location.href = "./LandingPage.html";
+        });
+      }
+      
+      var popupcusLoginContainer = document.getElementById("popupcusLoginContainer");
+      if (popupcusLoginContainer) {
+        popupcusLoginContainer.addEventListener("click", function (e) {
+          window.location.href = "./Register.html";
+        });
+      }
+      </script>
+  </body>
+</html>

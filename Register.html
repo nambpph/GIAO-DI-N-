@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Register.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="register">
+      <img class="register-child" alt="" src="./public/rectangle-3.svg" />
+
+      <img class="register-item" alt="" src="./public/rectangle-2.svg" />
+
+      <img class="register-inner" alt="" src="./public/rectangle-1.svg" />
+
+      <div class="form-login">
+        <div class="form-login-child" id="popuprectangle3"></div>
+        <div class="register1">Register</div>
+        <b class="register2">Register</b>
+        <div class="already-member-login-container">
+          <span>Already member?</span>
+          <b> Login</b>
+        </div>
+        <div class="fullname">FullName</div>
+        <div class="password">Password</div>
+        <div class="form-login-item"></div>
+        <div class="form-login-inner"></div>
+        <div class="rectangle-div"></div>
+      </div>
+      <div class="email">Email</div>
+      <img
+        class="outlinebrandsfacebook-icon"
+        alt=""
+        src="./public/outlinebrandsfacebook.svg"
+      />
+
+      <img
+        class="outlinebrandsgoogle-alt-icon"
+        alt=""
+        src="./public/outlinebrandsgooglealt.svg"
+      />
+
+      <img
+        class="outlineinterfacecross-icon"
+        alt=""
+        src="./public/outlineinterfacecross.svg"
+      />
+    </div>
+
+    <script>
+      var popuprectangle3 = document.getElementById("popuprectangle3");
+      if (popuprectangle3) {
+        popuprectangle3.addEventListener("click", function (e) {
+          window.location.href = "./CusLogin.html";
+        });
+      }
+      </script>
+  </body>
+</html>
